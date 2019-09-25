@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ven" value="name:sno;datatype:int,name:productid;datatype:blob,name:productname;datatype:blob,name:image;datatype:blob,name:quality;datatype:blob,name:price;datatype:blob,name:dateofpurchase;datatype:blob,name:vendorname;datatype:blob,name:address;datatype:blob,name:phone;datatype:blob,name:email;datatype:blob" />
+</info>

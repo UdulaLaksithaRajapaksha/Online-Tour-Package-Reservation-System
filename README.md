@@ -1,12 +1,17 @@
 # Online-Tour-Package-Reservation-System
 
+================
 ## Instructions:
+================
 
 This system is recommended to use with wampserver 2 and the embeded phpMyAdmin version.
 
 Database should be created named 'shoppingcart' in phpMyAdmin and import the 'shoppingcart' SQL file by this path (www->database->shoppingcart.sql file)
 
+
+=======================
 High level description:
+=======================
 
 There will be 2 basic user flows:
 
@@ -33,4 +38,15 @@ With this flow,
 - Edit/Delete packages in cart.
 - Registered customers can view their own order history.
 
+=================
+Folder structure:
+=================
 
+- Database details can be found from the 'database' folder.
+
+- php source code related to administrator module can be found from (shoppingcart -> admin)
+    - tpl files related to above will be in (shoppingcart -> templates -> admin)
+    
+- php source code related to Customer/guest module can be found in shoppingcart folder.
+    - tpl files related to above will be in (shoppingcart -> templates)    
+    
